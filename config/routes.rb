@@ -15,5 +15,6 @@ Rails.application.routes.draw do
   get '/:id', to: "users#show"
   post '/login', to: "users#login"
   delete '/delete/:id', to: "users#destroy"
+  # delete '/delete/:id', to: "users#destroy"
 
 end
